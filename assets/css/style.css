@@ -144,6 +144,10 @@ div{
     margin: auto;
     
 }
+figcaption{
+    display: flex;
+    justify-content: center;
+}
 li{
     margin-left: 20px;
 }
