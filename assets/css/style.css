@@ -16,7 +16,7 @@
 #Base1{
     background-color: #782221;
     width: 1160px;
-    height: 1500px;
+    height: 1600px;
     margin: auto;
     border-right: 3px solid black;
     
@@ -54,11 +54,16 @@ nav{
     justify-content: space-between;
     height: 60px;
     padding-top: 20px;
-    margin-top: 40px;
+    margin-top: 100px;
     padding-bottom: 20px;
 }
-#navstyle{
+nav a{
     color: white;
+}
+nav a:hover{
+    text-decoration: underline red;
+}
+#navstyle{
     padding-top: 15px;
     padding-left: 30px;
     padding-right: 30px;
@@ -81,13 +86,18 @@ h1{
     margin-bottom: 10px;
     padding-bottom: 5px;
     padding-left: 20px;
-    
+}
+h2:hover{
+    border-left-width: 5px;
+    border-color: #782221;
+    border-left-style: solid;
 }
 h2{
     background-color: #dbc2a4;
     color: black;
     font-family: "Lato", sans-serif;
     margin-right: 20px;
+    text-indent: 10px;
 }
 h3{
     font-family: "Lato", sans-serif;
@@ -95,6 +105,7 @@ h3{
 p{
     font-family: "Raleway";
     padding-left: 20px;
+    text-indent: 40px;
 }
 ul{
     font-family: "Raleway";
@@ -122,36 +133,54 @@ footer{
     display: flex;
     justify-content: space-around;
 }
-
+#icons a:hover{
+    opacity: 0.5;
+}
 #icons img{
     width: 50px;
     height: 50px;
+    
 }
-
-#PP img{
+figure{
+    padding-top: 50px;
+    
+}
+figure img{
     width: 125px;
     height: 125px;
     margin: auto;
-    margin-top: 25px;
     border-radius: 50%;
     border: 3px solid brown;
-}
-
-div{
-    width: 125px;
-    height: 125px;
     display: flex;
+    cursor: zoom-in;
+    
+    
+}
+ figure div{
+    width: 200px;
+    height: 20px;
+    color: white;
     margin: auto;
+    margin-top: 20px;
+    font-family: "Raleway";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     
 }
 figcaption{
+    width: 125px;
+    height: 20px;
+    color: white;
+    font-family: "Raleway";
+    font-size: x-large;
+    padding-top: 45px;
     display: flex;
-    justify-content: center;
+    margin: auto;
+    justify-content: space-around;
+    
+    
 }
 li{
     margin-left: 20px;
-}
-
-a{
-    color: white;
 }
